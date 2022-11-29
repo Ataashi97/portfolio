@@ -115,9 +115,15 @@ main {
   justify-content: space-around;
 }
 
+#cocktailz{
+display: flex;
+align-items: center;
+}
+
 .project-1 {
-  scale: 1.5;
-  padding-bottom: 60px;
+  display: flex;
+  align-items: center;
+  padding: 100px 0 0 700px;
 }
 
 h3 {
