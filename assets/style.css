@@ -126,6 +126,12 @@ align-items: center;
   padding: 100px 0 0 700px;
 }
 
+.project-2 {
+  display: flex;
+  align-items: center;
+  padding: 100px 0 0 700px;
+}
+
 h3 {
   text-decoration: underline;
 
