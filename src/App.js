@@ -3,8 +3,7 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import NavBar from './components/navBar'
 import Home from './components/Home'
-import Contact from './components/Contact'
-import Projects from './components/Project'
+import Projects from './src/components/Project'
 import Footer from './components/Footer'
 function App() {
   return (
@@ -13,8 +12,6 @@ function App() {
        <Routes>
           <Route path="/React-Portfolio/" element={<Home />} />
            <Route path="/React-Portfolio/projects" element={<Projects />} />
-           {/* <Route path="/resume" element={<Resume />} /> */}
-           {/* <Route path="*" element={<About to="/"/>} /> */}
          </Routes>
          <Footer />
     </Router>

@@ -11,8 +11,8 @@ function Projects() {
             </div>
             <div style={{dislplay: 'flex', justifyContent: 'space-around'}}>
                 <a href="https://lizedelman.github.io/bopsnbooze/"><img src={project1} alt="screenshot of my first project" style={{margin: 'auto', maxWidth: '300px', borderRadius: '25px'}}></img></a> 
-                <a href="https://boiling-ridge-38547.herokuapp.com/homepage"><img src={project1} alt="theBeholder" style={{margin: 'auto', maxWidth: '300px', borderRadius: '25px'}}></img></a> 
-                <a href="https://video-game-trivia.herokuapp.com/"><img src={project1} alt="VGT" style={{margin: 'auto', maxWidth: '300px', borderRadius: '25px'}}></img></a> 
+                <a href="https://boiling-ridge-38547.herokuapp.com/homepage"><img src={project2} alt="theBeholder" style={{margin: 'auto', maxWidth: '300px', borderRadius: '25px'}}></img></a> 
+                <a href="https://video-game-trivia.herokuapp.com/"><img src={project3} alt="VGT" style={{margin: 'auto', maxWidth: '300px', borderRadius: '25px'}}></img></a> 
             </div>
         </div>
     );
